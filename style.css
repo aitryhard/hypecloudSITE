@@ -1,0 +1,319 @@
+body{
+    background-color: black;
+    font-family: 'Intro Friday', 'Arial', sans-serif;
+    font-size: 17px;
+}
+
+nav{
+    display: flex;
+    margin-top: 18px;
+    width: 1200px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.home a{
+    margin-left: 20px;
+    text-decoration: none;
+    flex-direction: row;
+    color: white;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(59, 130, 246);
+    background-size: 900px;
+    border-radius: 10px;
+    transition: 0.15s;
+}
+
+.leftNav a{
+    text-decoration: none;
+    flex-direction: row;
+    color: white;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-size: 900px;
+    border-radius: 5px;
+    transition: 0.1s;
+    margin-left: 15px;
+}
+
+.leftNav a:hover{
+    text-decoration: none;
+    flex-direction: row;
+    color: white;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(59, 130, 246);
+    background-size: 900px;
+    border-radius: 5px;
+    transition: 0.15s;
+    margin-left: 15px;
+}
+
+.leftNav{
+    font-weight: 760;
+    display: flex;
+}
+
+.centerNav{
+    display: flex;
+    justify-content: center;
+}
+
+.rightNav{
+    display: flex;
+    margin-right: 15px;
+}
+
+.ssilki{
+    text-align: center;
+    display: flex;
+}
+
+.ssilki a{
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(138, 55, 0);
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    background-size: 10px;
+    border-radius: 5px;
+    transition: 0.1s;
+    width: auto;
+    font-weight: 760;
+}
+
+.ssilki a:hover{
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(138, 55, 0);
+    display: inline-flex;
+    background-color: rgb(210, 210, 210);
+    background-size: 10px;
+    border-radius: 5px;
+    transition: 0.15s;
+    width: auto;
+    font-weight: 760;
+}
+
+.ssilka{
+    width: 25px;
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.ssilka1{
+    width: 25px;
+    height: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.ip{
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.play{
+    text-align: center;
+    display: flex;
+}
+
+.play a{
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(138, 55, 0);
+    display: inline-flex;
+    background-color: rgb(250, 159, 47);
+    background-size: 10px;
+    border-radius: 5px;
+    transition: 0.1s;
+    width: auto;
+    font-weight: 760;
+}
+
+.play a:hover{
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(138, 55, 0);
+    display: inline-flex;
+    background-color: rgb(250, 179, 47);
+    background-size: 10px;
+    border-radius: 5px;
+    transition: 0.15s;
+    width: auto;
+    font-weight: 760;
+}
+
+.hero{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Intro Friday';
+    font-display: swap;
+    font-style: normal;
+    src: 
+    url('IntroFriday.ttf') format('.ttf');
+}
+
+.orig{
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.text{
+    color: rgb(152, 152, 152);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    height: 140px;
+}
+
+.blog{
+    display: flex;
+    height: 258px;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.blog h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700px;
+}
+
+.divs1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.divs1 a{
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(138, 55, 0);
+    display: inline-flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(250, 159, 47);
+    background-size: 900px;
+    border-radius: 5px;
+    transition: 0.1s;
+    width: 146px;
+    font-weight: 760;
+    margin-top: 12px;
+}
+
+.divs1 a:hover{
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(138, 55, 0);
+    display: inline-flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(250, 179, 47);
+    background-size: 900px;
+    border-radius: 5px;
+    transition: 0.15s;
+    width: 146px;
+    font-weight: 760;
+    margin-top: 12px;
+}
+
+.divs2 a{
+    display: inline-flex;
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: rgb(103, 115, 244);
+    background-size: 900px;
+    border-radius: 5px;
+    transition: 0.1s;
+    font-size: 17px;
+    font-weight: 760;
+    margin-top: 30px;
+}
+
+.divs2 a:hover{
+    display: inline-flex;
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: rgb(129, 139, 250);
+    background-size: 900px;
+    border-radius: 5px;
+    transition: 0.15s;
+    font-size: 17px;
+    font-weight: 760;
+    margin-top: 30px;
+}
+
+.boba{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.centr1{
+    display: flex;
+    color: white;
+    font-weight: 780;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.disc2{
+    display: flex;
+    justify-content: right;
+    width: 331.025px;
+    height: 320px;
+    margin-right: 90px;
+}
+
+.disc1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 82.800;
+    margin-right: 82.800;
+}
+
+.disc{
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
